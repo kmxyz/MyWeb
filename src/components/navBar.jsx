@@ -16,7 +16,6 @@ class NavBar extends Component {
                   <img src={logo} alt="Logo" width="40" height="40" class="d-inline-block align-text-top rounded-3"/>
                   <span className='border-start border-5'>Mark</span>
                 </a>
-                
                 <ul className="nav">
                   {this.state.navBarItem.map((item) =>
                   <li key={item} style={{ borderwidth: 10}}className="nav-item" >
