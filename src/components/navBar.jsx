@@ -17,7 +17,7 @@ class NavBar extends Component {
                 </a>
                 <ul className="nav">
                   {this.state.navBarItem.map((item) =>
-                  <li key={item} style={{ borderwidth: 10}}className="nav-item" >
+                  <li key={item} style={{ marginLeft: "30px"}}className="nav-item" >
                     <a className="nav-link link-dark fs-5"  href="#">
                       {item}
                     </a>
