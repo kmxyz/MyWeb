@@ -13,7 +13,7 @@ class NavBar extends Component {
               <div className="container-fluid">               
                 <a className="navbar-brand fs-2" href="#">
                   <img src={logo} style={{marginLeft : "20px"}} alt="Logo" width="40" height="40" className="d-inline-block align-text-top rounded-3"/>
-                  <span className='border-start border-5'>Mark's Web</span>
+                  <span className='border-start border-5'>Devloper world</span>
                 </a>
                 <ul className="nav">
                   {this.state.navBarItem.map((item) =>
