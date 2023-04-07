@@ -17,7 +17,7 @@ class MainPage extends Component {
                         <h1>Mark Xiao</h1>
                         <p style={{width: "30em"}}>Enjoy solving complex problems both independently and collaboratively. 
                         Enable to write high-quality and clean code. Motivated to learn new web design and machine learning technology.</p>
-                        <button className='btn btn-dark'>View More</button>
+                        <button style={{marginTop: "20px"}} className='btn btn-dark'>View More</button>
                     </div>
                 </div>
                 
