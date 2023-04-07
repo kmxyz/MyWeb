@@ -12,6 +12,7 @@ class NavBar extends Component {
           <div className='bg-secondary-subtle ' style={{ position: "sticky", top: 0 }}>
             <nav className="navbar" >
               <div className="container-fluid">
+                
                 <a className="navbar-brand fs-2" href="#">
                   <img src={logo} alt="Logo" width="40" height="40" class="d-inline-block align-text-top rounded-3"/>
                   <span className='border-start border-5'>Mark</span>
