@@ -52,7 +52,10 @@ class AboutMe extends Component {
                         <div className='text-start'>
                             <h3>Personal Info</h3>
                             <div className="row row-cols-2">
-                                {this.state.infoElement.map(x => (<div className="col" style={this.state.pInfoStyle}><span className='fw-bold'>{x[0]} :</span> <span>{x[1]}</span></div>))}
+                                {this.state.infoElement.map(x => (
+                                <div className="col" style={this.state.pInfoStyle}>
+                                    <span className='fw-bold'>{x[0]} :</span> <span>{x[1]}</span>
+                                </div>))}
                             </div>
                         </div>
                     </div>

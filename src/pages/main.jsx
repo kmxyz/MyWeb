@@ -11,6 +11,7 @@ class MainPage extends Component {
             <main className="">
                 <span>
                     <img src={MainPageImg} className=" img-fluid  mx-auto width: 100% m-5" alt="bg"/>
+
                 </span>
                 <div className="position-absolute top-50 start-0 translate-middle-y" >
                     <div className='text-start' style={{margin : '0 130px'}}>
