@@ -8,7 +8,8 @@ class NavBar extends Component {
       sectionPage : ['/section1','/section2','/section3',"/section4","/section5"]
     }
     render() { 
-        return (         
+        return (        
+           
           <nav className="navbar navbar-expand-lg fixed-top shadow p-3 mb-5 bg-body-tertiary rounded" >
             <div className="container-fluid">               
               <a className="navbar-brand fs-2" href="#">
