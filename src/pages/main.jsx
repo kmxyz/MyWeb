@@ -1,17 +1,12 @@
 import React, { Component } from 'react';
 import MainPageImg from '../pic/mainpageImg.png';
 
-class MainPage extends Component {
-    state = { 
-
-    }
-     
+class MainPage extends Component {     
     render() { 
         return (
-            <main className="">
+            <main id="section1">
                 <span>
                     <img src={MainPageImg} className=" img-fluid  mx-auto width: 100% m-5" alt="bg"/>
-
                 </span>
                 <div className="position-absolute top-50 start-0 translate-middle-y" >
                     <div className='text-start' style={{margin : '0 130px'}}>

@@ -23,7 +23,7 @@ class AboutMe extends Component {
 
     render() { 
         return (
-            <div className="container text-center" style={{margin : '70px 100px'}}>
+            <div className="container text-center" id="section2" style={{margin : '70px 100px'}}>
                 <div className="row">
                     <div className="col-5" style={{marginTop : "80px"}}>
                         <img src={Infopic} alt="Logo" width="400" height="400" className="d-inline-block align-text-top rounded-5"/>
@@ -53,9 +53,9 @@ class AboutMe extends Component {
                             <h3>Personal Info</h3>
                             <div className="row row-cols-2">
                                 {this.state.infoElement.map(x => (
-                                <div className="col" style={this.state.pInfoStyle}>
-                                    <span className='fw-bold'>{x[0]} :</span> <span>{x[1]}</span>
-                                </div>))}
+                                    <div key = {x[0]} className="col" style={this.state.pInfoStyle}>
+                                        <span className='fw-bold'>{x[0]} :</span> <span>{x[1]}</span>
+                                    </div>))}
                             </div>
                         </div>
                     </div>
