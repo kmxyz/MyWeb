@@ -23,7 +23,7 @@ class AboutMe extends Component {
 
     render() { 
         return (
-            <div className="container text-center" id="section2" style={{margin : '70px 100px'}}>
+            <div className="container text-center" style={{margin : '70px 100px'}}>
                 <div className="row">
                     <div className="col-5" style={{marginTop : "80px"}}>
                         <img src={Infopic} alt="Logo" width="400" height="400" className="d-inline-block align-text-top rounded-5"/>

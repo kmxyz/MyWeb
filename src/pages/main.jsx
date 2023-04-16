@@ -4,7 +4,7 @@ import MainPageImg from '../pic/mainpageImg.png';
 class MainPage extends Component {     
     render() { 
         return (
-            <main id="section1">
+            <main>
                 <span>
                     <img src={MainPageImg} className=" img-fluid  mx-auto width: 100% m-5" alt="bg"/>
                 </span>

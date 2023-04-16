@@ -5,7 +5,7 @@ import logo from '../pic/logo.JPG';
 class NavBar extends Component {
     state = {  
       navBarItem : ["Home","About Me","Skill","Experience","Contact Me"],
-      sectionPage : ['/section1','/section2','/section3',"/section4","/section5"]
+      sectionPage : ['/','/about','/Skill',"/Experience","/Contact"]
     }
     render() { 
         return (        
