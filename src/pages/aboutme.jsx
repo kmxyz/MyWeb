@@ -17,17 +17,17 @@ class AboutMe extends Component {
     return (
       <div className="container text-center my-5">
         <div className="row">
-          <div className="col-5 m-3">
+          <div className="col-5 pt-5">
             <img
               src={Infopic}
               alt="Logo"
               width="400"
               height="400"
-              className="d-inline-block align-text-top rounded-5"
+              className="d-inline-block align-text-top rounded-5 mb-3"
             />
             <h3 style={this.state.contentMargin}>Mark Xiao</h3>
           </div>
-          <div className="col">
+          <div className="col pb-4 pe-4">
             <div className="col">
               <div className="text-start">
                 <h1>About Me</h1>
