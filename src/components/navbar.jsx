@@ -31,6 +31,7 @@ class NavBar extends Component {
                 className="nav-item"
               >
                 <Link
+                  style={{ cursor: "pointer" }}
                   smooth={true}
                   offset={-100}
                   duration={-5000}
