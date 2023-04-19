@@ -11,7 +11,7 @@ class Experience extends Component {
     const { items } = this.state;
     return (
       <div id="Experience" className="text-center p-5 bg-body-secondary">
-        <h1>Experience</h1>
+        <h1 className="border-bottom pb-2">Experience</h1>
         <div className="row ">
           {items.map((m) => (
             <div key={m.name} className="col pt-4 ">
