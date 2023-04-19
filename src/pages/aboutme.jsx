@@ -8,8 +8,8 @@ class AboutMe extends Component {
       ["Location", "Halifax NS"],
       ["Phone", "902-579-9586"],
       ["Email", "markxiao66@gmail.com"],
-      ["GitHub", "github.com/kmxyz"],
-      ["Linkedin", "linkedin.com/in/yunzhong-xiao/"],
+      ["GitHub", "https://github.com/kmxyz"],
+      ["Linkedin", "https://linkedin.com/in/yunzhong-xiao/"],
     ],
   };
 

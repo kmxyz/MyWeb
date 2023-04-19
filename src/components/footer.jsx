@@ -6,24 +6,23 @@ const Footer = () => {
     <div className="container">
       <footer className="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
         <div className="col-md-4 d-flex align-items-center">
-          <a
-            href="/"
-            className="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1"
-          ></a>
-          <span className="mb-3 mb-md-0 text-body-secondary">
-            &copy; 2023 Company, Inc
+          <span className="mb-3 mb-md-0 text-body-secondary ">
+            Copyright &copy; 2023. All rights are reserved
           </span>
         </div>
 
         <ul className="nav col-md-4 justify-content-end list-unstyled d-flex">
           <li className="ms-3">
-            <a className="text-body-secondary" href="#">
-              <i className="fa fa-linkedin"></i>
+            <a
+              className="text-body-secondary "
+              href="https://linkedin.com/in/yunzhong-xiao/"
+            >
+              <i class="fa fa-linkedin fa-lg "></i>
             </a>
           </li>
           <li className="ms-3">
-            <a className="text-body-secondary" href="#">
-              <i className="fa fa-github"></i>
+            <a className="text-body-secondary" href="https://github.com/kmxyz">
+              <i class="fa fa-github fa-lg	"></i>
             </a>
           </li>
         </ul>
