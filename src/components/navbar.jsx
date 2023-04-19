@@ -1,11 +1,12 @@
 import React, { Component } from "react";
 import "bootstrap/dist/css/bootstrap.css";
 import logo from "../pic/logo.JPG";
+import { Link } from "react-scroll";
 
 class NavBar extends Component {
   state = {
     navBarItem: ["Home", "About Me", "Skill", "Experience", "Contact Me"],
-    sectionPage: ["/", "/about", "/Skill", "/Experience", "/Contact"],
+    sectionPage: ["/", "about", "Skill", "Experience", "Contact"],
   };
   render() {
     return (
@@ -29,14 +30,17 @@ class NavBar extends Component {
                 style={{ marginLeft: "30px" }}
                 className="nav-item"
               >
-                <a
+                <Link
+                  smooth={true}
+                  offset={-100}
+                  duration={-5000}
                   className="nav-link link-dark fs-5"
-                  href={
+                  to={
                     this.state.sectionPage[this.state.navBarItem.indexOf(item)]
                   }
                 >
                   {item}
-                </a>
+                </Link>
               </li>
             ))}
           </ul>

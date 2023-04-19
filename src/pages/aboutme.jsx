@@ -15,7 +15,7 @@ class AboutMe extends Component {
 
   render() {
     return (
-      <div className="container text-center my-5">
+      <div id="about" className="container text-center my-5">
         <div className="row">
           <div className="col-5 pt-5">
             <img

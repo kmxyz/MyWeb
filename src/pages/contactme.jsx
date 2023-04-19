@@ -4,7 +4,7 @@ class ContactMe extends Component {
   state = {};
   render() {
     return (
-      <div className="mt-5">
+      <div id="Contact" className="mt-5">
         <p>contact me !</p>
       </div>
     );

@@ -4,7 +4,7 @@ import MainPageImg from "../pic/mainpageImg.png";
 class MainPage extends Component {
   render() {
     return (
-      <main className="m-auto">
+      <main id="/" className="m-auto">
         <span>
           <img
             src={MainPageImg}
