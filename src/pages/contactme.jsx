@@ -7,7 +7,7 @@ class ContactMe extends Component {
     return (
       <div id="Contact" className="text-start ms-5 ps-4">
         <h2 class="pb-2 text-primary mt-4">Contact me !</h2>
-        <p className="text-secondary ">Let me be part of your business !</p>
+        <p className="text-secondary ">Let me be part of your team !</p>
       </div>
     );
   }
