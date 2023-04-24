@@ -7,23 +7,42 @@ class NavBar extends Component {
   state = {
     navBarItem: ["Home", "About Me", "Skill", "Experience", "Contact Me"],
     sectionPage: ["/", "about", "Skill", "Experience", "Contact"],
+    menu: false,
   };
+
+  toggleMenu = () => {
+    this.setState({ menu: !this.state.menu });
+  };
+
   render() {
+    const show = this.state.menu ? "show" : "";
     return (
-      <nav className="navbar fixed-top shadow p-3 mb-5 bg-body-tertiary rounded">
-        <div className="container-fluid">
-          <a className="navbar-brand fs-2" href="#">
-            <img
-              src={logo}
-              style={{ marginLeft: "20px" }}
-              alt="Logo"
-              width="40"
-              height="40"
-              className="d-inline-block align-text-top rounded-3"
-            />
-            <span className="p-2">Devloper world</span>
-          </a>
-          <ul className="nav">
+      <nav className="navbar fixed-top shadow p-3 mb-5 bg-body-tertiary rounded navbar-expand-lg navbar-light">
+        <a className="navbar-brand fs-2" href="#">
+          <img
+            src={logo}
+            style={{ marginLeft: "20px" }}
+            alt="Logo"
+            width="40"
+            height="40"
+            className="d-inline-block align-text-top rounded-3"
+          />
+          <span className="p-2">Devloper world</span>
+        </a>
+        <button
+          className="navbar-toggler"
+          type="button"
+          onClick={this.toggleMenu}
+        >
+          <span className="navbar-toggler-icon"></span>
+        </button>
+
+        <div
+          className={
+            "justify-content-end pe-3 collapse navbar-collapse " + show
+          }
+        >
+          <ul className="navbar-nav ">
             {this.state.navBarItem.map((item) => (
               <li
                 key={item}

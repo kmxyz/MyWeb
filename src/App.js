@@ -6,6 +6,7 @@ import AboutMe from "./pages/aboutme";
 import Experience from "./pages/experience";
 import ContactMe from "./pages/contactme";
 import Footer from "./components/footer";
+import Skill from "./pages/skill";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <NavBar />
       <MainPage />
       <AboutMe />
+      <Skill />
       <Experience />
       <ContactMe />
       <Footer />

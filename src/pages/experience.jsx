@@ -14,7 +14,7 @@ class Experience extends Component {
         <h1 className="border-bottom pb-2">Experience</h1>
         <div className="row ">
           {items.map((m) => (
-            <div key={m.name} className="col pt-5 ">
+            <div key={m.name} className="col-lg-3 pt-3 col-md-6 ">
               <Card items={m} />
             </div>
           ))}

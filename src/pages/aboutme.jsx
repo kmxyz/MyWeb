@@ -15,9 +15,9 @@ class AboutMe extends Component {
 
   render() {
     return (
-      <div id="about" className="container text-center my-5">
+      <div id="about" className="container text-center my-5 border-bottom">
         <div className="row">
-          <div className="col-5 pt-5">
+          <div className="col-lg-5 pt-5 col-md-8">
             <img
               src={Infopic}
               alt="Logo"
@@ -27,7 +27,7 @@ class AboutMe extends Component {
             />
             <h3 style={this.state.contentMargin}>Mark Xiao</h3>
           </div>
-          <div className="col pb-4 pe-4">
+          <div className="col-lg-7 pb-4 pe-4 ">
             <div className="col">
               <div className="text-start">
                 <h1>About Me</h1>
