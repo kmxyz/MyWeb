@@ -9,7 +9,7 @@ class MainPage extends Component {
           <div className="text-md-start text-sm-center my-5 p-md-5">
             <h5>Web Devloper</h5>
             <h1>Yunzhong(Mark) Xiao</h1>
-            <p className="" style={{ width: "28em" }}>
+            <p className="p-2" style={{ width: "26em" }}>
               Enjoy solving complex problems both independently and
               collaboratively. Enable to write high-quality and clean code.
               Motivated to learn new web design and machine learning technology.
