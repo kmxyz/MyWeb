@@ -27,7 +27,7 @@ class AboutMe extends Component {
             />
             <h3 style={this.state.contentMargin}>Mark Xiao</h3>
           </div>
-          <div className="col-lg-7 pb-4 pe-4 ">
+          <div className="col-lg-7 pb-4 pe-4 ps-md-5">
             <div className="col">
               <div className="text-start">
                 <h1>About Me</h1>
