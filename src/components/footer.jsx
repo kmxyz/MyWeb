@@ -22,7 +22,7 @@ const Footer = () => {
           </li>
           <li className="ms-3">
             <a className="text-body-secondary" href="https://github.com/kmxyz">
-              <i className="fa fa-github fa-lg	"></i>
+              <i className="fa fa-github fa-lg	" style={{ color: "" }}></i>
             </a>
           </li>
         </ul>

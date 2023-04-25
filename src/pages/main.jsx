@@ -6,7 +6,7 @@ class MainPage extends Component {
     return (
       <main id="/" className="">
         <div className="position-absolute my-5 p-sm-5">
-          <div className="text-sm-start text-center my-5 p-sm-5 p-4">
+          <div className="text-sm-start text-center my-5 p-sm-5 p-3">
             <h5>Web Devloper</h5>
             <h1>Yunzhong(Mark) Xiao</h1>
             <p className="" style={{ width: "26em" }}>
