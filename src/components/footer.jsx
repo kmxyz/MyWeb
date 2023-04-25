@@ -17,12 +17,12 @@ const Footer = () => {
               className="text-body-secondary "
               href="https://linkedin.com/in/yunzhong-xiao/"
             >
-              <i className="fa fa-linkedin fa-lg "></i>
+              <i className="fa fa-linkedin fa-lg"></i>
             </a>
           </li>
           <li className="ms-3">
             <a className="text-body-secondary" href="https://github.com/kmxyz">
-              <i className="fa fa-github fa-lg	" style={{ color: "" }}></i>
+              <i className="fa fa-github fa-lg"></i>
             </a>
           </li>
         </ul>
