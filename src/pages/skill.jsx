@@ -5,7 +5,6 @@ class Skill extends Component {
   render() {
     return (
       <div id="Skill">
-        <h1 className="pb-2">Skill</h1>
         <div className="text-bg-dark me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
           <div className="my-3 py-3">
             <h2 className="display-5">Software</h2>

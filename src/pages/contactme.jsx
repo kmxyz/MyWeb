@@ -1,7 +1,17 @@
 import React, { Component } from "react";
 
 class ContactMe extends Component {
-  state = {};
+  state = {
+    colors: "text-secondary",
+  };
+
+  headleOn = () => {
+    this.setState({ colors: "text-primary" });
+  };
+
+  headleLeave = () => {
+    this.setState({ colors: "text-secondary" });
+  };
 
   render() {
     return (
@@ -32,7 +42,9 @@ class ContactMe extends Component {
                 <h4>E-mail</h4>
                 <a
                   href="mailto: markxiao66@gmail.com"
-                  className="text-secondary text-decoration-none"
+                  className={" text-decoration-none " + this.state.colors}
+                  onMouseEnter={this.headleOn}
+                  onMouseLeave={this.headleLeave}
                 >
                   markxiao66@gmail.com
                 </a>
