@@ -48,7 +48,7 @@ class Skill extends Component {
               height: "300px",
             }}
           >
-            <ul className="d-flex justify-content-center py-5 h-100 align-items-center flex-wrap pe-4">
+            <ul className="d-flex justify-content-center py-sm-5 h-100 align-items-center flex-wrap pe-4">
               {this.state.imgSoftwareInfo.map((item) => (
                 <li key={item.name}>
                   <img
@@ -74,7 +74,7 @@ class Skill extends Component {
               height: "300px",
             }}
           >
-            <ul className="d-flex justify-content-center py-5 h-100 align-items-center flex-wrap pe-4">
+            <ul className="d-flex justify-content-center py-sm-5 h-100 align-items-center flex-wrap pe-4">
               {this.state.imgLanguageInfo.map((item) => (
                 <li key={item.name}>
                   <img
