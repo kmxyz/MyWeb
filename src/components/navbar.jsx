@@ -50,6 +50,7 @@ class NavBar extends Component {
                 className="nav-item"
               >
                 <Link
+                  onClick={this.toggleMenu}
                   style={{ cursor: "pointer" }}
                   smooth={true}
                   offset={-100}

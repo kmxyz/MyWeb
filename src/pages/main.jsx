@@ -7,17 +7,20 @@ class MainPage extends Component {
     return (
       <main
         id="/"
-        className="d-flex align-items-md-center align-items-end justify-content-center justify-content-sm-start pt-5 mt-4 "
+        className="d-flex align-items-center justify-content-center justify-content-sm-start pt-5 mt-5 "
       >
         <div className="text-sm-start text-center position-absolute ps-sm-5 ms-sm-5">
           <h5>Software Devloper</h5>
           <h1>Yunzhong(Mark) Xiao</h1>
-          <p className="" style={{ width: "26em" }}>
+          <p
+            className="text-secondary d-none d-md-block"
+            style={{ width: "26em" }}
+          >
             Enjoy solving complex problems both independently and
             collaboratively. Enable to write high-quality and clean code.
             Motivated to learn new web design and machine learning technology.
           </p>
-          <button className="btn btn-dark">
+          <button className="btn btn-primary my-2">
             <Link
               style={{ cursor: "pointer" }}
               smooth={true}

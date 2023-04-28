@@ -6,8 +6,8 @@ class AboutMe extends Component {
     infoElement: [
       ["Name", "Yunzhong(Mark) Xiao"],
       ["Location", "Halifax NS"],
-      ["Phone", "902-579-9586"],
-      ["Email", "markxiao66@gmail.com"],
+      ["Hobby", "Basketball, Travel"],
+      ["Language", "English, Chinese"],
       ["GitHub", "github.com/kmxyz"],
       ["Linkedin", "linkedin.com/in/yunzhong-xiao/"],
     ],
@@ -31,7 +31,7 @@ class AboutMe extends Component {
             <div className="col">
               <div className="text-start">
                 <h1>About Me</h1>
-                <p className=" my-4 ">
+                <p className=" my-4 text-secondary-emphasis">
                   Hello, my name is Yunzhong (Mark) Xiao and I recently
                   completed my Computer Science degree at Dalhousie University.
                   In particular, I earned two certifications in Data Science as
@@ -41,7 +41,7 @@ class AboutMe extends Component {
                   comes to creating something with 1s and 0s, I love Python,
                   SQL, Java, and React.
                 </p>
-                <p className="my-4">
+                <p className="my-4 text-secondary-emphasis">
                   I have worked on projects that help businesses to make
                   well-informed decisions with comprehensive data analysis.
                   Please go check out the website I created for them on my
@@ -58,7 +58,7 @@ class AboutMe extends Component {
                   {this.state.infoElement.map((x) => (
                     <div key={x[0]} className="col my-3">
                       <span className="fw-bold">{x[0]} :</span>{" "}
-                      <span>{x[1]}</span>
+                      <span className="text-secondary-emphasis">{x[1]}</span>
                     </div>
                   ))}
                 </div>

@@ -31,7 +31,7 @@ class ContactMe extends Component {
               </span>
               <div className="text-start pt-2">
                 <h4>Phone</h4>
-                <p className="text-secondary">902-5799586</p>
+                <p className="text-secondary">902-579-9586</p>
               </div>
             </div>
             <div className="col ps-5 ms-4 ps-sm-0 ms-sm-0 d-flex align-items-center">
