@@ -7,10 +7,10 @@ class MainPage extends Component {
     return (
       <main
         id="/"
-        className="d-flex align-items-md-center align-items-end justify-content-center justify-content-sm-start pt-5 mt-5 pt-sm-0 mt-sm-0"
+        className="d-flex align-items-md-center align-items-end justify-content-center justify-content-sm-start pt-5 mt-4 "
       >
         <div className="text-sm-start text-center position-absolute ps-sm-5 ms-sm-5">
-          <h5>Web Devloper</h5>
+          <h5>Software Devloper</h5>
           <h1>Yunzhong(Mark) Xiao</h1>
           <p className="" style={{ width: "26em" }}>
             Enjoy solving complex problems both independently and
