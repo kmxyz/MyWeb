@@ -19,7 +19,7 @@ class ContactMe extends Component {
         id="Contact"
         className="row d-flex flex-wrap justify-content-between align-items-center py-3 my-4"
       >
-        <div className="col-6 text-start ps-5 ms-5">
+        <div className="col-12 col-md-6 text-start ps-5 ms-5">
           <h2 className="text-primary ">Contact me !</h2>
           <p className="text-secondary ">Let me be part of your team</p>
         </div>
