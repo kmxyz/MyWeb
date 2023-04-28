@@ -36,7 +36,7 @@ class Skill extends Component {
   render() {
     return (
       <div id="Skill">
-        <div className="text-bg-dark me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+        <div className="text-bg-dark me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden w-100">
           <div className="my-3 py-3">
             <h2 className="display-5">Software</h2>
             <p className="lead">My Current Software Toolkit.</p>
@@ -62,7 +62,7 @@ class Skill extends Component {
             </ul>
           </div>
         </div>
-        <div className="bg-body-tertiary me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden ">
+        <div className="bg-body-tertiary me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden w-100">
           <div className="my-3 p-3">
             <h2 className="display-5">Language</h2>
             <p className="lead">My Current Programming Language Skills.</p>
