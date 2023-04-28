@@ -32,21 +32,22 @@ class AboutMe extends Component {
               <div className="text-start">
                 <h1>About Me</h1>
                 <p className=" my-4 ">
-                  Hi, I am Yunzhong(Mark) Xiao Xiao. I recently graduated from
-                  Dal as a computer science student and obtained two
-                  certificates in Data Science and Artificial Intelligence &
-                  Intelligent Systems. I am deeply passionate about coding web
-                  application and anything related to data analytics. I have a
-                  high level of proficiency in Python, SQL, Java, and React and
-                  am able to write high-quality code.
+                  Hello, my name is Yunzhong (Mark) Xiao and I recently
+                  completed my Computer Science degree at Dalhousie University.
+                  In particular, I earned two certifications in Data Science as
+                  well as Artificial Intelligence & Intelligent Systems. As you
+                  might notice from this website, my passion lies in developing
+                  web applications and engaging in data analytics tasks. When
+                  comes to creating something with 1s and 0s, I love Python,
+                  SQL, Java, and React.
                 </p>
                 <p className="my-4">
-                  With my expertise, I can help businesses make timely and
-                  informed decisions based on data analysis. I am constantly
-                  seeking ways to grow and improve in my field. I'm excited
-                  about the prospect of exploring any opportunities that may be
-                  available, and I welcome the chance to discuss my
-                  qualifications with you further.
+                  I have worked on projects that help businesses to make
+                  well-informed decisions with comprehensive data analysis.
+                  Please go check out the website I created for them on my
+                  github I would love to hear what do you think. Right now, I’m
+                  actively seeking opportunities to expand my knowledge, don’t
+                  be shy and drop me a line.
                 </p>
               </div>
             </div>

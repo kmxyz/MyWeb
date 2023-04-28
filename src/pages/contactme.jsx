@@ -27,7 +27,7 @@ class ContactMe extends Component {
           <div className="row ">
             <div className="col col-xs-2 ps-5 ms-4 ps-sm-0 ms-sm-0  d-flex align-items-center ">
               <span className=" shadow rounded-circle p-3 m-3">
-                <i class="fa fa-phone fa-lg text-primary "></i>
+                <i className="fa fa-phone fa-lg text-primary "></i>
               </span>
               <div className="text-start pt-2">
                 <h4>Phone</h4>
@@ -36,7 +36,7 @@ class ContactMe extends Component {
             </div>
             <div className="col ps-5 ms-4 ps-sm-0 ms-sm-0 d-flex align-items-center">
               <span className=" shadow rounded-circle p-3 m-3">
-                <i class="fa fa-phone fa-lg text-primary"></i>
+                <i className="fa fa-phone fa-lg text-primary"></i>
               </span>
               <div className="text-start">
                 <h4>E-mail</h4>
