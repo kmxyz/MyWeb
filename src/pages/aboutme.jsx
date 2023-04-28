@@ -37,7 +37,7 @@ class AboutMe extends Component {
                   In particular, I earned two certifications in Data Science as
                   well as Artificial Intelligence & Intelligent Systems. As you
                   might notice from this website, my passion lies in developing
-                  web applications and engaging in data analytics tasks. When
+                  web applications and engaging in data analytics tasks. When it
                   comes to creating something with 1s and 0s, I love Python,
                   SQL, Java, and React.
                 </p>
@@ -45,7 +45,7 @@ class AboutMe extends Component {
                   I have worked on projects that help businesses to make
                   well-informed decisions with comprehensive data analysis.
                   Please go check out the website I created for them on my
-                  github I would love to hear what do you think. Right now, I’m
+                  github I would love to hear what you think. Right now, I’m
                   actively seeking opportunities to expand my knowledge, don’t
                   be shy and drop me a line.
                 </p>
