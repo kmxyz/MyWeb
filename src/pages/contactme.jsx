@@ -19,13 +19,13 @@ class ContactMe extends Component {
         id="Contact"
         className="row d-flex flex-wrap justify-content-between align-items-center py-3 my-4"
       >
-        <div className="col-12 col-md-6 text-start ps-5 ms-5">
+        <div className="col-8 col-md-6 text-start ps-5 ms-5">
           <h2 className="text-primary ">Contact me !</h2>
           <p className="text-secondary ">Let me be part of your team</p>
         </div>
-        <div className="col ">
+        <div className="col mx-sm-5">
           <div className="row ">
-            <div className="col col-xs-2 ps-5 ms-4 ps-sm-0 ms-sm-0  d-flex align-items-center ">
+            <div className="col col-xs-2 ps-5 ms-4 ps-sm-0 ms-sm-0 d-flex align-items-center ">
               <span className=" shadow rounded-circle p-3 m-3">
                 <i className="fa fa-phone fa-lg text-primary "></i>
               </span>
