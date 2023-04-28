@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Infopic from "../pic/infopic.JPG";
+import Infopic from "../pic/infopic.jpg";
 
 class AboutMe extends Component {
   state = {
