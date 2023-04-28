@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import MainPageImg from "../pic/mainpageImg.png";
+import MainPageImg from "../pic/mainpageImg.jpg";
 import { Link } from "react-scroll";
 
 class MainPage extends Component {
