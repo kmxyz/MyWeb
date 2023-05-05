@@ -12,9 +12,9 @@ class Experience extends Component {
     return (
       <div id="Experience" className="text-center p-5 bg-body-secondary">
         <h1 className="border-bottom pb-2">Experience</h1>
-        <div className="row ">
+        <div className="row g-3">
           {items.map((m) => (
-            <div key={m.name} className="col-lg-3 pt-3 col-md-6 ">
+            <div key={m.name} className="col-lg-3 col-md-6 ">
               <Card items={m} />
             </div>
           ))}
