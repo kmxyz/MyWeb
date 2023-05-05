@@ -15,17 +15,17 @@ class AboutMe extends Component {
 
   render() {
     return (
-      <div id="about" className="container text-center my-5 border-bottom">
+      <div id="about" className="container my-5 border-bottom">
         <div className="row">
-          <div className="col-lg-5 pt-5 col-md-8">
+          <div className="col-lg-5 pt-5">
             <img
               src={Infopic}
               alt="Logo"
               width="400"
               height="400"
-              className="d-inline-block align-text-top rounded-5 mb-3"
+              className="rounded-5 mb-3"
             />
-            <h3 style={this.state.contentMargin}>Mark Xiao</h3>
+            <h3 className="py-3">Mark Xiao</h3>
           </div>
           <div className="col-lg-7 pb-4 pe-4 ps-md-5">
             <div className="col">
